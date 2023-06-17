@@ -3,12 +3,13 @@
     <listeners>
     <listener class-name="utilsPack.SuiteListener"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/hasba/IdeaProjects/FrameworkOne/src/test/java/qa/tests/TestCase1.java">
+    <test verbose="1" preserve-order="true" name="C:/Users/hasba/IdeaProjects/FrameworkOne/src/test/java/qa/tests/TestCase1.java">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="qa.tests.LoginPageTest">
                 <methods>
                     <include name="sampleMethodForEnteringCredentials"/>
+                    <include name="verifyLoginIsSuccessful"/>
                 </methods>
             </class>
         </classes>

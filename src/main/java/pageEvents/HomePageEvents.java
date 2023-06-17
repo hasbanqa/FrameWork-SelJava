@@ -9,7 +9,6 @@ public class HomePageEvents {
     public void signInButton(){
         ele.getWebElement("XPATH", HomePageElements.signInButton).click();
 
-
     }
 
 

@@ -47,7 +47,6 @@ public ExtentTest logger;
         driver.get(Constants.url);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-
     }
 
     @AfterMethod
@@ -66,6 +65,7 @@ public ExtentTest logger;
 
     public void afterTest(){
         extent.flush();
+        driver.quit();
     }
 
     public void setupDriver(String browser){

@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e779d5-1245-446e-8b6d-d7bea9233dfc" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/HASBANreport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basePage/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageEvents/HomePageEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageEvents/LoginPageEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilsPack/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilsPack/ElementFetch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilsPack/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilsPack/SuiteListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qa/tests/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/qa/tests/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/verifyLoginIsSuccessful.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageEvents/PaymentEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/HASBANreport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/HASBANreport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basePage/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basePage/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/HomePageEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/HomePageEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageEvents/LoginPageEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageEvents/LoginPageEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilsPack/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilsPack/RetryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilsPack/SuiteListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilsPack/SuiteListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/tests/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/tests/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +55,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "last_opened_file_path": "C:/Users/hasba/IdeaProjects/FrameworkOne/src/test/java/qa/tests",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hasba\IdeaProjects\FrameworkOne\src\test\java\qa\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hasba\IdeaProjects\FrameworkOne\config" />
     </key>
@@ -101,9 +101,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="qa.tests.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.sampleMethodForEnteringCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameworkOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="qa.tests.LoginPageTest" />
+      <option name="METHOD_NAME" value="sampleMethodForEnteringCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/hasba/IdeaProjects/FrameworkOne/src/test/java/qa/tests/testng.xml" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.sampleMethodForEnteringCredentials" />
         <item itemvalue="TestNG.C:/Users/hasba/IdeaProjects/FrameworkOne/testng.xml" />
         <item itemvalue="TestNG.C:/Users/hasba/IdeaProjects/FrameworkOne/config/testng.xml" />
       </list>
@@ -118,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685492320266</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1685810988293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685810988293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
