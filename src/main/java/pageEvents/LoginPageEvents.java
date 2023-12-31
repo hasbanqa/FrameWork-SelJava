@@ -12,7 +12,7 @@ public class LoginPageEvents {
 
         Assert.assertTrue(ele.getWebElements("XPATH", LoginPageElements.loginText).size()>0, "Element is not found");
     }
-
+    // This is for entering credentials into the login page
     public void enterCredentials(){
 
         ele.getWebElement("XPATH", LoginPageElements.emailAddress).sendKeys("gaberial.karsin@donebyngle.com");
